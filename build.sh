@@ -2,9 +2,9 @@
 
 #------------------------------------------------------------------------------
 # @file
-# Builds a Hugo site hosted on a Cloudflare Worker.
+# Builds a Hugo site hosted on a Render.
 #
-# The Cloudflare Worker automatically installs Node.js dependencies.
+# Render automatically installs Node.js dependencies.
 #------------------------------------------------------------------------------
 
 # Exit on error, undefined variables, or pipe failures
@@ -23,15 +23,6 @@ cleanup() {
 trap cleanup EXIT SIGINT SIGTERM
 
 main() {
-  # Define tool versions
-  DART_SASS_VERSION=1.99.0
-  GO_VERSION=1.26.1
-  HUGO_VERSION=0.160.0
-  NODE_VERSION=24.14.1
-
-  # Set the build timezone
-  export TZ=Europe/Oslo
-
   # Create and move into a temporary directory for downloads
   build_temp_dir=$(mktemp -d)
   pushd "${build_temp_dir}" > /dev/null
@@ -58,12 +49,6 @@ main() {
   tar -C "${HOME}/.local/hugo" -xf "hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
   export PATH="${HOME}/.local/hugo:${PATH}"
 
-  # Install Node.js
-  echo "Installing Node.js ${NODE_VERSION}..."
-  curl -sLJO "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz"
-  tar -C "${HOME}/.local" -xf "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  export PATH="${HOME}/.local/node-v${NODE_VERSION}-linux-x64/bin:${PATH}"
-
   # Return to the project root
   popd > /dev/null
 
@@ -83,7 +68,7 @@ main() {
 
   # Build the site
   echo "Building the site..."
-  hugo build --gc --minify
+  hugo build --gc --minify --baseURL "${RENDER_EXTERNAL_URL}"
 }
 
 main "$@"
