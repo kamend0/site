@@ -66,6 +66,10 @@ main() {
     git fetch --unshallow
   fi
 
+  # Fetch theme submodule (Congo)
+  echo "Fetching submodules..."
+  git submodule update --init --recursive
+
   # Build the site
   echo "Building the site..."
   hugo build --gc --minify --baseURL "${RENDER_EXTERNAL_URL}"
