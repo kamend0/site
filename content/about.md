@@ -29,6 +29,11 @@ valuable contributions that last, quickly.
 
 You would be amazed at how little survives a few rounds of "why?"
 
+Currently senior-data-engineering at [ApartmentIQ](https://www.apartmentiq.io/), 
+working primarily on [Daylight](https://www.apartmentiq.io/revenue-management/), 
+AIQ's Revenue Management solution. It's the best in the industry and I'm not 
+just being a yuppie.
+
 ### Does any of that resonate with you?
 
 I'm exploring opportunities in independent analytics, data pipeline, and cloud
