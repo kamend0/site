@@ -10,39 +10,43 @@ showPagination: false
 
 ### Hello!
 
-Thanks for stopping by.
+Thanks for stopping by. I'm Kollin Mendoza.
 
-I'm a senior data engineer. My career has primarily involved being handed
+I work as a senior data engineer. My career has primarily involved being handed
 flaming messes and handing back something much less painful to hold onto.
 
-I contribute to businesses by simplifying systems. I pride myself on
-net-negative LOC contributions to codebases. My favorite color on GitHub is red.
+In other words: I simplify systems. Every line of code is a liability, and
+less liability is usually good. My favorite color on GitHub is red. This
+philosophy applies to code just as much as cloud compute, stale services, and
+meeting invites. You would be amazed at how little survives a few rounds of
+"why?"
 
-This philosophy applies to code just as much as cloud compute, stale services,
-and meeting invites. The speed of building & scaling organizations quickly often
-comes at the cost of ugly messes and inefficiencies. I love to clean those up.
+Removal is preferred, but I equally love building. Setting an entire ETL process
+up with a sweet dashboard from scratch is just as fun as extending an existing
+pipeline. Regardless of the task, I've proven myself decent at getting
+up-to-speed on complex systems quickly, and making valuable contributions that
+last.
 
-Removal is preferred, but I equally love building. Whether it's going
-zero-to-one on a new system, or extending an existing pipeline, I've proven
-myself decently good at getting up-to-speed on complex systems and making
-valuable contributions that last, quickly.
+Currently senior-data-engineering at [ApartmentIQ](https://www.apartmentiq.io/),
+working primarily on [Daylight](https://www.apartmentiq.io/revenue-management/),
+AIQ's Revenue Management solution. It's the best in the industry and I'm not
+just being a yuppie. I'd hate to compete with us in this market.
 
-You would be amazed at how little survives a few rounds of "why?"
+### Does any of this resonate with you?
 
-Currently senior-data-engineering at [ApartmentIQ](https://www.apartmentiq.io/), 
-working primarily on [Daylight](https://www.apartmentiq.io/revenue-management/), 
-AIQ's Revenue Management solution. It's the best in the industry and I'm not 
-just being a yuppie.
+I'm exploring part-time opportunities in independent analytics, data pipeline,
+and cloud consulting. Do you need help with any of the following?
 
-### Does any of that resonate with you?
+* Standing up a resilient data pipeline that you don't have to babysit
+* Putting your cloud spend on a strict diet (aka: stop giving Amazon your $$$)
+* Figuring out why your systems keep on breaking, and stopping it for good
 
-I'm exploring opportunities in independent analytics, data pipeline, and cloud
-consulting. I love to help smaller teams stand up the data systems they need to
-operate with confidence without building an entire data vertical.
+Then please [shoot me an email!](mailto:kollin@hey.com) I would love to help.
 
-If that's something you're doing, I'd love to hear from you.
-[Get in touch!](mailto:kollin@hey.com)
-
-That said, connecting with people for whatever reason is always a joy. Feel free
-to reach out to me just to say hi, talk shop, whatever!
+And if that's not you? STILL shoot me an email! Or, 
+[connect with me on LinkedIn](https://www.linkedin.com/in/kollin-mendoza/) if 
+you're into that. Meeting new people is always a joy for me. I'd love to talk 
+shop, ask you way too many questions about all the things you very likely know 
+way more about than I do, and/or just shoot the breeze. Or hell, tell me about 
+your weekend. I don't bite.
 
