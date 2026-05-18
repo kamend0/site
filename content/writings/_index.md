@@ -7,6 +7,7 @@ cascade:
   showAuthor: false
   showTableOfContents: true
   showTaxonomies: true
+  draft: true
 ---
 
 Notes on data engineering, analytics, and the work of building data platforms.

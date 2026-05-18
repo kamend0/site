@@ -7,17 +7,17 @@ title = "Kollin Mendoza"
 
 [params]
   dateFormat = "2 January 2006"
-  description = "Kollin Mendoza — building peaceful systems." 
+  description = "Kollin Mendoza builds peaceful systems."
   mainSections = ["writings"]
 
 [params.author]
   name = "Kollin Mendoza"
   image = "img/author.png"
-  headline = "Senior Data Engineer"
-  bio = "Data engineer focused on analytics, warehousing, and cloud data platforms."
+  headline = "Data Engineer, Programmer, Guy"
+  bio = "Building peaceful systems."
   links = [
     { email = "mailto:kollin@hey.com" },
-    { linkedin = "https://www.linkedin.com/in/kollinmendoza/" },
+    { linkedin = "https://www.linkedin.com/in/kollin-mendoza/" },
     { github = "https://github.com/kamend0/" },
   ]
 

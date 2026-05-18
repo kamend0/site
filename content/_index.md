@@ -1,6 +1,9 @@
 ---
 title: "Kollin Mendoza"
-description: "Senior data engineer — analytics, warehousing, and cloud data platforms."
+description: "Kollin's personal website."
 ---
 
-I build data platforms that analysts and operators actually trust — warehouses, pipelines, and the modeling layer that ties them together. Currently exploring independent consulting work in analytics and cloud data.
+Hey, wasn't technology supposed to make our lives easier? I still believe in 
+that dream. Chasing simplicity in systems, waxing philosophical, and playing too much 
+Balatro.
+

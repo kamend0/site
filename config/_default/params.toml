@@ -4,7 +4,7 @@ autoSwitchAppearance = true
 
 defaultThemeColor = "#FFFFFF"
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
@@ -41,7 +41,7 @@ fingerprintAlgorithm = "sha256"
   showTaxonomies = true
   showWordCount = false
   showComments = false
-  sharingLinks = ["linkedin", "x-twitter", "email"]
+  sharingLinks = []
 
 [list]
   showBreadcrumbs = false

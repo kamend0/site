@@ -5,6 +5,8 @@ showDate: false
 showAuthor: false
 showReadingTime: false
 showTableOfContents: false
+showPagination: false
+draft: true
 ---
 
 I take on a small number of consulting engagements at a time, focused on analytics and cloud data platforms. Typical shapes of work:
