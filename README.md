@@ -1,6 +1,6 @@
 # Kollin's Site
 
-There are many websites, but this one is mine.
+This is my website. There are many like it, but this one is mine.
 
 Small landing page for me. Read about me, my work, and other stuff.
 
