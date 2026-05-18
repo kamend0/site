@@ -1,0 +1,23 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+
+title = "Kollin Mendoza"
+
+[params]
+  dateFormat = "2 January 2006"
+  description = "Kollin Mendoza — building peaceful systems." 
+  mainSections = ["writings"]
+
+[params.author]
+  name = "Kollin Mendoza"
+  image = "img/author.png"
+  headline = "Senior Data Engineer"
+  bio = "Data engineer focused on analytics, warehousing, and cloud data platforms."
+  links = [
+    { email = "mailto:kollin@hey.com" },
+    { linkedin = "https://www.linkedin.com/in/kollinmendoza/" },
+    { github = "https://github.com/kamend0/" },
+  ]
+
