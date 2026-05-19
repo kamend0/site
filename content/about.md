@@ -18,8 +18,8 @@ flaming messes and handing back something much less painful to hold onto.
 In other words: I simplify systems. Every line of code is a liability, and
 less liability is usually good. My favorite color on GitHub is red. This
 philosophy applies to code just as much as cloud compute, stale services, and
-meeting invites. You would be amazed at how little survives a few rounds of
-"why?"
+meeting invites. You would be amazed at how little ever survives 
+[a few good rounds of "why?"](https://en.wikipedia.org/wiki/Five_whys)
 
 Removal is preferred, but I equally love building. Setting an entire ETL process
 up with a sweet dashboard from scratch is just as fun as extending an existing
@@ -27,7 +27,7 @@ pipeline. Regardless of the task, I've proven myself decent at getting
 up-to-speed on complex systems quickly, and making valuable contributions that
 last.
 
-Currently senior-data-engineering at [ApartmentIQ](https://www.apartmentiq.io/),
+Currently senior-data-engineering at [ApartmentIQ](https://www.apartmentiq.io/)
 working primarily on [Daylight](https://www.apartmentiq.io/revenue-management/),
 AIQ's Revenue Management solution. It's the best in the industry and I'm not
 just being a yuppie. I'd hate to compete with us in this market.

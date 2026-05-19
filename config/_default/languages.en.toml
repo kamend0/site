@@ -12,7 +12,7 @@ title = "Kollin Mendoza"
 
 [params.author]
   name = "Kollin Mendoza"
-  image = "img/author.png"
+  image = "img/headshot.jpeg"
   headline = "Data Engineer, Programmer, Guy"
   bio = "Building peaceful systems."
   links = [
