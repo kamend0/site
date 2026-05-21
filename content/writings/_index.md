@@ -7,7 +7,6 @@ cascade:
   showAuthor: false
   showTableOfContents: true
   showTaxonomies: true
-  draft: true
 ---
 
 Thoughts on programming, other things, and life.

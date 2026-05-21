@@ -1,7 +1,6 @@
 ---
 title: "Rebel Against AI and Save your Soul — Learn C!"
 date: 2026-05-21
-draft: true
 description: "Don't trade your soul for productivity. Write some C by hand."
 summary: "Have your programming skills been atrophying? Have you been prompting
 everything? Does it feel like your programming soul is slipping away? Learn C!"

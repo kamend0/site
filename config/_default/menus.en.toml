@@ -8,8 +8,3 @@
   pageRef = "writings"
   weight = 30
 
-# [[main]]
-#   identifier = "search"
-#   weight = 99
-#   [main.params]
-#     action = "search"
