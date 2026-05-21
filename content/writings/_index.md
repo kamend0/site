@@ -1,6 +1,6 @@
 ---
 title: "Writings"
-description: "Notes on data engineering, analytics, and the work of building data platforms."
+description: "Thoughts on programming, other things, and life."
 cascade:
   showReadingTime: true
   showDate: true
@@ -10,4 +10,4 @@ cascade:
   draft: true
 ---
 
-Notes on data engineering, analytics, and the work of building data platforms.
+Thoughts on programming, other things, and life.

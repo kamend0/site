@@ -1,22 +1,12 @@
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 10
+  weight = 40
 
-# [[main]]
-#   name = "Writings"
-#   pageRef = "writings"
-#   weight = 20
-
-# [[main]]
-#   name = "Projects"
-#   pageRef = "projects"
-#   weight = 30
-
-# [[main]]
-#   name = "Services"
-#   pageRef = "services"
-#   weight = 40
+[[main]]
+  name = "Writings"
+  pageRef = "writings"
+  weight = 30
 
 # [[main]]
 #   identifier = "search"
