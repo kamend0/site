@@ -57,12 +57,13 @@ started reading [Beej's Guide to C](https://beej.us/guide/bgc/) with the
 ultimate goal of creating some kind of game using only
 [Raylib](https://www.raylib.com). As a result of this ongoing effort, I'm
 currently writing this post in a Markdown document in vim. It'll be posted to my
-static site made with Hugo. I mapped save to F4, and the document formats itself
-using Prettier on save.
+static site made with Hugo. I mapped save to F4, and the document is formatted
+with Prettier on save.
 
 In this moment, I am euphoric. Not because of some phony tech conglomerate's
-editor with built-in "Agentic Coding" tools. But because, I am enlightened by my
-`.vimrc` file and [Tim Pope's incredible plugins](https://github.com/tpope).
+bloated editor with built-in "Agentic Coding" tools. But because, I am
+enlightened by my `.vimrc` file and
+[Tim Pope's incredible plugins](https://github.com/tpope).
 
 ## Learn C!
 
@@ -124,13 +125,13 @@ Python list is an abstraction, but I see _why_ it is. I mean, you can just
 `.append()` a string to a list of floats? Are you kidding me?
 
 I can _imagine_ the ways it's doing its magic tricks. I don't deeply understand
-them, but I have an appreciation for what lies beneath, that there is a depth to
-it, the sheer distance between myself and the chrome. Despite its distance, I
+them, but I have an appreciation for what lies beneath, and that it lies deep,
+an astounding distance between myself and the chrome. Despite the distance, I
 feel like I'm _seeing_ the computer more than ever.
 
 ## Learning abstractions
 
-I've really only begun developing [that game](https://github.com/kamend0/game)
+I've really only begun to develop [that game](https://github.com/kamend0/game)
 (don't make fun of it, I'm learning), but most things have actually clicked more
 quickly for me than I expected them to at first. Most of Raylib's tools made me
 think "well duh, of course that's how that would work." I got a window up; I
@@ -143,9 +144,9 @@ struggle, I got it to rotate smoothly when I pressed spacebar using
 would trigger the alarm that rang on collision with the static "enemy" rectangle
 without actually touching it. Exactly where it would collide changed as I
 changed the origin of rotation; collision worked fine when rotating at (0, 0)
-(which puts the axis of rotation at its top-left corner), but was all off when I
-made it instead rotate about its center. And it certainly didn't work if the
-square was rotated at all; it's like the game was ignoring the rotation.
+(which puts the origin at its top-left corner), but was all off when I made it
+instead rotate about its center. And it certainly didn't work if the square was
+rotated at all; it's like the game was ignoring the rotation.
 
 This really stumped me for a bit, because I couldn't see where I had made a
 mistake. I banged my head against this for a while. Since I'd just listened to
@@ -164,9 +165,9 @@ it. It doesn't fundamentally _change_ the Rectangle. I immediately remembered
 from reading Beej that functions only ever use _copies_ of the values passed to
 them. I wasn't passing a pointer; it _couldn't_ be modifying the original
 Rectangle, and it was that original Rectangle variable that I was feeding to the
-`CheckCollisionRecs()` function. I also remembered reading Raylib was designed
-to pass copies around, hence its focus on having very small objects. It all made
-sense!
+`CheckCollisionRecs()` function. I also remembered reading that Raylib was
+designed to pass copies around, hence its focus on having very small objects. It
+all made sense!
 
 I thought: it's like the player Rectangle has a "ghost." Only, ironically, the
 "real, material" object the computer is using to calculate collisions is the
@@ -183,7 +184,7 @@ lot.
 
 Seeing this "ghost" for what it was felt like seeing through the matrix. There
 was a thread all the way from pointers to fighting games. I could see "from top
-to bottom", if just a sliver.
+to bottom", if just a sliver of the whole.
 
 My point here is that there are _so many of exactly these kinds of things that
 you never have to worry about in programming._ And it's almost always because a
@@ -219,11 +220,11 @@ created. It's empowering to program.
 Just to be clear: my C code _sucks_. But it's mine. I don't care how thoroughly
 I prompt, plan, and iterate—the LLM's code is **not** mine, even if I'm
 responsible for it. And I know I'm not the only one that feels this way, and
-that's why I've felt compelled to share this small experience.
+that's why I feel compelled to share this small experience, despite my shyness.
 
 If you, too, feel like your skills are atrophying, or that you've been losing
 your _programming soul_, I invite you to join me in taking it back by writing
-some C. Go read [Beej's Guide](https://beej.us/guide/bgc/), it's some of the
+some C. Go read [Beej's Guide](https://beej.us/guide/bgc/); it's some of the
 best writing on anything programming-related I've read. LLMs aren't off-limits,
 they're super useful—but use them carefully, lest they steal your soul.
 
@@ -238,9 +239,9 @@ point.
     [bun](https://github.com/oven-sh/bun/pull/30412).
 
 [^2]:
-    CS 16 at UCSB with the great [Ziad Matni](https://ziadmatni.github.io/), who
-    graciously let me take the course when the CS major was heavily impacted and
-    I wasn't even in the major.
+    CMPSC 16 at UCSB with the great [Ziad Matni](https://ziadmatni.github.io/),
+    who graciously let me take the course when the CS major was heavily impacted
+    and I wasn't even in the major.
 
 [^3]:
     I did use Claude for one significant part of this project: I tried to get it
